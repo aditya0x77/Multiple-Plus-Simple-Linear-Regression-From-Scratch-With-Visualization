@@ -66,5 +66,5 @@ jupyter notebook
 Thanks for checking out this little project.  
 May your gradients always descend in the right direction 🚀  
 
-![Goodbye GIF](https://tenor.com/view/johnny-silverhand-cyberpunk-2077-gif-1282984467117982678)
+![Goodbye GIF](Images/Johnny.gif)
 
