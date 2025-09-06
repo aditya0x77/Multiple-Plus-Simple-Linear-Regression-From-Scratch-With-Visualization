@@ -23,7 +23,7 @@ The dataset is entirely synthetic — I created it just for testing and experime
 ---
 
 ## 2. 📉 Data + Regression Line
-Once training starts, the model begins fitting a regression line to the dataset:  
+Regression line plotted using the final values of w and b, obtained through the gradient descent algorithm.
 
 ![Regression Line](Images/Data_Plot_With_Regression_Line.png)
 
