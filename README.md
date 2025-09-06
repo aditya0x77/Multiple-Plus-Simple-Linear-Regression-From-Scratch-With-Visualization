@@ -59,4 +59,12 @@ Clone the repo and just run the notebook:
 git clone https://github.com/devilmaycar/Linear-Regression-From-Scratch-With-Visualization.git
 cd Linear-Regression-From-Scratch-With-Visualization
 jupyter notebook
+```  
+
+## 🌃 End of the Line, Choomba  
+
+Thanks for checking out this little project.  
+May your gradients always descend in the right direction 🚀  
+
+![Goodbye GIF](https://tenor.com/view/johnny-silverhand-cyberpunk-2077-gif-1282984467117982678)
 
