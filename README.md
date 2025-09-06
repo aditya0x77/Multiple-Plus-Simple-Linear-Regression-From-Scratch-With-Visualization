@@ -16,7 +16,7 @@ I also added a bunch of visualizations to make the process more intuitive: regre
 ---
 
 ## 1. 💾 Dataset
-The dataset is entirely synthetic — I created it just for testing and experimentation.  
+The dataset is entirely synthetic, I created it just for testing and experimentation.  
 
 ![Data_Plot](Images/Data_Plot.png)
 
