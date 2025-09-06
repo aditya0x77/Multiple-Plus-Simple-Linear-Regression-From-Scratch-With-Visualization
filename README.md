@@ -8,7 +8,7 @@ I also added a bunch of visualizations to make the process more intuitive: regre
 ---
 
 ## ✨ Features
-- No scikit-learn – just raw **NumPy** math and **Matplotlib** plotting
+- No scikit-learn, just raw **NumPy** math and **Matplotlib** plotting
 - Visualizes how the regression line evolves during training
 - Plots the cost function in **3D** and as **contours**
 - Gradient Descent path is shown directly on the cost landscape
