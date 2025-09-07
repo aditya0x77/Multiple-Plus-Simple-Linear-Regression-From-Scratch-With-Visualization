@@ -1,55 +1,57 @@
-# 📈 Linear Regression from Scratch (Gradient Descent + Visualizations)
-
-This is a simple project where I built **Linear Regression** completely from scratch using just **NumPy** and **Matplotlib**.  
-The main goal was not just to train a model, but to actually **see how it learns** step by step.  
-
-I also added a bunch of visualizations to make the process more intuitive: regression lines updating, the cost function surface, and even contour plots with the gradient descent path.
-
----
-
 ## ✨ Features
-- No scikit-learn, just raw **NumPy** math and **Matplotlib** plotting
-- Visualizes how the regression line evolves during training
-- Plots the cost function in **3D** and as **contours**
-- Gradient Descent path is shown directly on the cost landscape
+- **From Scratch:** No scikit-learn, only NumPy for math + Matplotlib for plotting
+- **Simple Linear Regression:** One feature, regression line updates during training
+- **Multiple Linear Regression:** Generalized to n features, trained with gradient descent
+- **Visualizations:**
+  - Data with regression line
+  - Regression line evolution (animation)
+  - Cost function surface (3D) & contours
+  - Gradient Descent path on cost landscape
 
 ---
 
 ## 1. 💾 Dataset
-The dataset is entirely synthetic, I created it just for testing and experimentation.  
-
-![Data_Plot](Images/Data_Plot.png)
+- **Synthetic dataset** created for testing and experimentation
+- ![Data_Plot](Images/Data_Plot.png)
 
 ---
 
-## 2. 📉 Data + Regression Line
-Regression line plotted using the final values of w and b, obtained through the gradient descent algorithm.
+## 2. 📉 Simple Linear Regression
+Regression line plotted using the final values of \( w \) and \( b \) from gradient descent.  
 
 ![Regression Line](Images/Data_Plot_With_Regression_Line.png)
 
 ---
 
-## 3. 🎬 Regression Line Evolution
-Here’s the fun part — watching the regression line slowly adjust itself to fit the data:  
+## 3. 🎬 Regression Line Evolution (Animation)
+Watch the regression line gradually fit the data:  
 
 ![Regression Line Evolution](Images/Animation.gif)
 
 ---
 
 ## 4. 🌄 Cost Function (3D Surface)
-The cost function \( J(w, b) \) plotted in 3D.  
-This helps visualize how gradient descent is “rolling downhill” towards the minimum:  
+The cost function \( J(w, b) \) visualized in 3D for the 1-feature case:  
 
 ![3D Cost Surface](Images/CostFunction.png)
 
 ---
 
 ## 5. 🌀 Contour Plot of Cost Function
-And here’s the 2D contour plot of the same cost function.  
-The black markers show the path gradient descent took while updating \( w \) and \( b \):  
+2D contour plot with gradient descent path:  
 
 ![Contour Plot](Images/Contour_Plot_Visualization.png)
 
+---
+
+## 6. 🧮 Multiple Linear Regression
+- Extended implementation to handle **multiple features**  
+- Same gradient descent logic, generalized for vectorized updates  
+- Tracked the **error across epochs** to visualize convergence  
+
+📉 Training error vs epochs:  
+
+![Epochs vs Error](Images/Epochs_vs_Error.png)
 ---
 
 ## 🚀 How to Run
