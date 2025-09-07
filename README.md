@@ -58,7 +58,7 @@ The cost function \( J(w, b) \) visualized in 3D for the 1-feature case:
 Clone the repo and just run the notebook:
 
 ```bash
-git clone https://github.com/devilmaycar/Linear-Regression-From-Scratch-With-Visualization.git
+git clone https://github.com/aditya0x77/Linear-Regression-From-Scratch-With-Visualization.git
 cd Linear-Regression-From-Scratch-With-Visualization
 jupyter notebook
 ```  
