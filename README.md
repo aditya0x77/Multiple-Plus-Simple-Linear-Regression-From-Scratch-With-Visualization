@@ -46,7 +46,7 @@ The cost function \( J(w, b) \) visualized in 3D for the 1-feature case:
 
 ## 6. 🧮 Multiple Linear Regression
 - Extended implementation to handle **multiple features**  
-- Same gradient descent logic, generalized for vectorized updates  
+- Same gradient descent logic, generalized for n features
 - Tracked the **error across epochs** to visualize convergence  
 
 📉 Training error vs epochs:  
