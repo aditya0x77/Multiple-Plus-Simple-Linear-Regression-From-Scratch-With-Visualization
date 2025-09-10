@@ -66,7 +66,7 @@ jupyter notebook
 ## 🌃 End of the Line, Choomba  
 
 Thanks for checking out this little project.  
-May your gradients always descend in the right direction 🚀  
+BYE! BYE!
 
 ![Goodbye GIF](Images/Johnny.gif)
 
