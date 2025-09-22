@@ -63,7 +63,7 @@ git clone https://github.com/aditya0x77/Linear-Regression-From-Scratch-With-Visu
 cd Linear-Regression-From-Scratch-With-Visualization
 
 # Install dependencies
-pip install numpy pandas matplotlib
+pip install numpy pandas matplotlib notebook
 
 # Launch Jupyter Notebook
 jupyter notebook
